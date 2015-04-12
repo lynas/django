@@ -1,0 +1,34 @@
+python manage.py runserver 192.168.122.75:8899
+
+python manage.py migrate
+
+django-admin startproject mysite
+
+ pip install django
+
+source env/bin/activate
+
+
+virtualenv --no-site-packages env
+
+
+yum -y install net-tools bash-completion iptables-services wget man vim
+
+easy_install virtualenv
+
+virtualenv --no-site-packages django
+
+easy_install Django
+
+
+systemctl disable firewalld.service 
+systemctl stop firewalld.service 
+
+
+iptables -L
+
+vim /etc/selinux/config 
+
+
+
+

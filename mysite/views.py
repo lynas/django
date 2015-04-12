@@ -6,5 +6,5 @@ def home(request):
     line = Line(text="testing line one")
     line.save()
     print Line.objects.all()
-    return render_to_response("mysite/home.html", {'hello': Line.objects.all()})
+    return render_to_response("mysite/home.html", {'lines': Line.objects.all()})
 

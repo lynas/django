@@ -1,5 +1,10 @@
 {% extends "mysite/base.html"  %}
 {% block content %}
-{{ hello }}
+{% for line in lines %}
+<ul>
+{{ hello.text }}
+	<li>{{ line.text }}</li>
+</ul>
+{% endfor %}
 {% endblock %}
 
