@@ -8,4 +8,5 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'mysite.views.home', name='home'),
+    url(r'^fsub/', 'mysite.views.form_submit_page', name='fsub'),
 ]
